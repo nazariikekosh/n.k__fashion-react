@@ -1,9 +1,11 @@
 import Header from "./components/header/Header";
+import Promo from "./components/promo/promo";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
+      <Promo />
     </div>
   );
 }
