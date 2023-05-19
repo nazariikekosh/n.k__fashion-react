@@ -9,8 +9,10 @@ function Header () {
             <div className="container">
                 <div className="header__row">
                     <div className="header__logo">
+                        <a href="#!">
                         <img src={logoImg} alt="Logo"/>
                         <span>Fashion</span>
+                        </a>
                     </div>
                     <nav className="header__nav">
                         <ul>

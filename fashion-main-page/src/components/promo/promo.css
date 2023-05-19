@@ -38,6 +38,7 @@
 }
 
 .promo__btn-wrapper {
+    margin-bottom: 90px;
     display: flex;
     column-gap: 34px;
     align-items: center;

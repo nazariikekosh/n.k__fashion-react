@@ -1,0 +1,11 @@
+.brands {
+    background-color: var(--yellow);
+    padding: 60px 0 55px;
+}
+
+.brands__list {
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+    mix-blend-mode: multiply;
+}
