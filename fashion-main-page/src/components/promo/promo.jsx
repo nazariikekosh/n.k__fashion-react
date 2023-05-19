@@ -7,9 +7,19 @@ const Promo = () => {
             <div className="promo__content">
                 <div className="promo__text">
                     <div className="promo__title">
-                        LET’S
+                        <span className='hightlight'>
+                            <span>
+                            LET’S
+                            </span>
+                        </span>
                         EXPLORE
-                        UNIQUE
+
+                        <span className='hightlight hightlight--yellow'>
+                            <span>
+                            UNIQUE
+                            </span>
+                        </span>
+                       
                         CLOTHES.
                     </div>
                     <div className="promo__desc">
