@@ -38,9 +38,8 @@
 }
 
 .promo__btn-wrapper :hover {
-    background-color: var(--yellow);
-    color: #000000;
     transition: 1.2s;
+    color: var(--yellow);
 }
 
 .promo__btn-wrapper {

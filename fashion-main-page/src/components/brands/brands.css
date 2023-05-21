@@ -9,3 +9,9 @@
     column-gap: 100px;
     mix-blend-mode: multiply;
 }
+
+.brands__list :hover {
+    /* transform: rotate(2deg); */
+    transform: scale(1.1);
+    transition: 0.8s;
+}
