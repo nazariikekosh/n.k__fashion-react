@@ -37,6 +37,12 @@
     padding: 18px 40px;
 }
 
+.promo__btn-wrapper :hover {
+    background-color: var(--yellow);
+    color: #000000;
+    transition: 1.2s;
+}
+
 .promo__btn-wrapper {
     margin-bottom: 90px;
     display: flex;

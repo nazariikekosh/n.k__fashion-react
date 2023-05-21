@@ -16,6 +16,11 @@
     color: var(--textColor);
 }
 
+.header__logo a :hover {
+    color: var(--yellow);
+    transition: 1.2s;
+}
+
 .header__logo span {
     font-weight: 900;
     font-size: 40px;
@@ -36,10 +41,18 @@
     display: flex;
     column-gap: 65px;
     align-items: center;
+    transition: 1.2s;
+}
+
+.header__nav ul :hover {
+    background-color: var(--yellow);
+    transition: 1.2s;
+    color: #000;
 }
 
 .header__nav a {
     color: var(--textColor);
+    padding: 2px 4px;
 }
 
 .header__nav-btn,
